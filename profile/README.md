@@ -1,4 +1,5 @@
 # PVMM
+
 ## 변경 사항
 * 모델 최종 출력  .txt -> .wav(음성)로 수정.
 * 음성의 욕설 부분은 블러 처리 되어 출력.
@@ -6,7 +7,7 @@
 
 # 프로젝트 시연 영상(.txt, 문자열 블러 처리)
 
-[![Video Label](/src/imgs/logo.png)](https://youtu.be/9pCCKXYSrt8?si=SUoRJZ16m9R-fcXL)
+[![Video Label](/img/logo.png)](https://youtu.be/9pCCKXYSrt8?si=SUoRJZ16m9R-fcXL)
 
 ##### 이미지를 누르면 시연영상을 확인할 수 있습니다.
 
@@ -56,7 +57,7 @@ Pydub 라이브러리를 활용하여 오디오 블러처리를 구현하였습�
 
 모델 구조는 아래와 같습니다
 
-![1](src/imgs/model.png)
+![1](/img/model.png)
 
 더 자세한 내용은 [코드](https://github.com/DAUOpenSW/PVMM/blob/main/src/models.py)를 참고해 주세요.
 
@@ -64,7 +65,7 @@ Pydub 라이브러리를 활용하여 오디오 블러처리를 구현하였습�
 
 욕설 데이터셋은 약 41,000개의 문장에 대해 욕설 여부를 분류한 데이터셋입니다.
 
-![dataset](/src/imgs/dataset_table.png)
+![dataset](/img/dataset_table.png)
 
 # 학습 과정
 ## 1. 전처리
